@@ -1,15 +1,19 @@
 import { StyledBody } from "../styles";
+import { StyledUl, StyledLi, StyledH1 } from "./styles";
 
 const MainContent = () => {
   return (
     <StyledBody>
-      <h1>Reasons I'm excited to learn React </h1>
-      <ol>
-        <li>
-          It's a popular library, so I'll be able to fit in with the cool kids!
-        </li>
-        <li>I'm more likely to get a job as a developer if I know React</li>
-      </ol>
+      <StyledH1>Fun facts about React</StyledH1>
+      <StyledUl>
+        <StyledLi>Was first released in 2013</StyledLi>
+        <StyledLi>Was originally created by Jordan Walke</StyledLi>
+        <StyledLi>Has well over 100K stars on GitHub</StyledLi>
+        <StyledLi>Is maintained by Facebook</StyledLi>
+        <StyledLi>
+          Powers thousands of enterprise apps, including mobile apps
+        </StyledLi>
+      </StyledUl>
     </StyledBody>
   );
 };
