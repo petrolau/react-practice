@@ -5,6 +5,7 @@ const MainContent = () => {
   return (
     <StyledBody>
       <StyledH1>Fun facts about React</StyledH1>
+
       <StyledUl>
         <StyledLi>Was first released in 2013</StyledLi>
         <StyledLi>Was originally created by Jordan Walke</StyledLi>
